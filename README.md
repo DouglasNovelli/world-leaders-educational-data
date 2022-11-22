@@ -1,13 +1,18 @@
 # World Leaders Educational Data
 
-description: Presents information about where world leaders got their higher degrees. V1 includes data about the GRULAC countries between Dec/1991 and Dec/2017.
+Description: Presents information about where world leaders got their higher degrees. V1 includes data about the GRULAC countries between Dec/1991 and Dec/2017.
 
-contributors: Douglas Novelli
-file name: world-leaders-educational-data-v1.csv
-path: https://github.com/DouglasNovelli/world-leaders-educational-data/blob/main/dataset/world-leaders-educational-data-v1.csv
-format: csv
-size: 80 KB
-fields:
+Contributors: Douglas Novelli
+
+File name: world-leaders-educational-data-v1.csv
+
+Path: https://github.com/DouglasNovelli/world-leaders-educational-data/blob/main/dataset/world-leaders-educational-data-v1.csv
+
+Format: csv
+
+Size: 80 KB
+
+Fields:
   - Name
     - description: Name of the world leader.
   - Country
@@ -31,11 +36,12 @@ fields:
   - Access_date
     - description: Data when the information was accessed (dd/mm/yyyy).
 
-license:
-Creative Commons Attribution 4.0 International (CC BY 4.0). You are free to copy, share and adapt this dataset for any purpose, provided that the original authorship is acknowledged. To cite this dataset: Novelli, Douglas. “World Leaders Educational Data, v1.” https://github.com/DouglasNovelli/world-leaders-educational-data.   
-  link: https://creativecommons.org/licenses/by/4.0/
+License:
+Creative Commons Attribution 4.0 International (CC BY 4.0). You are free to copy, share and adapt this dataset for any purpose, provided that the original authorship is acknowledged. 
+  - To cite this dataset: Novelli, Douglas. “World Leaders Educational Data, v1.” https://github.com/DouglasNovelli/world-leaders-educational-data.   
+  - link: https://creativecommons.org/licenses/by/4.0/
 
-references:
+References:
 - Caribbean Elections Biographical Database. 
   - link: http://www.caribbeanelections.com/knowledge/biography/default.asp
 - Barcelona Center for International Affairs. 
