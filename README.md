@@ -3,40 +3,40 @@
 description: Presents information about where world leaders got their higher degrees. V1 includes data about the GRULAC countries between Dec/1991 and Dec/2017.
 
 contributors: Douglas Novelli
+file name: world-leaders-educational-data-v1.csv
+path: https://github.com/DouglasNovelli/world-leaders-educational-data/blob/main/dataset/world-leaders-educational-data-v1.csv
+format: csv
+size: 80 KB
+fields:
+  - Name
+    - description: Name of the world leader.
+  - Country
+    - description: Country of the world leader.
+  - UN_regional_group
+    - description: Regional Group of the country in the United Nations. V1 Includes only member states of the Group of Latin America and the Caribbean (GRULAC).
+  - System_of_Government
+    - description: Type of the national political regime. For presidential states, the president was considered the country leader; for parliamentary states, the prime minister was considered.
+  - First_day_in_office
+    - description: Day in which the world leader assumed office (dd/mm/yyyy).
+  - Last_day_in_office
+    - description: Day in which the world leader left office if it already happened (dd/mm/yyyy).
+  - Alma_mater
+    - description: Educational institution from where the world leader got a higher degree.
+  - Location
+    - description: Country where the educational institution is located. 
+  - Field_of_study
+    - description: Field studied by the world leader. Includes information about the type of degree when available. 
+  - Source
+    - description: Sources of information for the data. Common sources include the Caribbean Elections Biographical Database and the Barcelona Center for International Affairs (CIDOB).
+  - Access_date
+    - description: Data when the information was accessed (dd/mm/yyyy).
 
-data:
-- name: world-leaders-educational-data-v1.csv
-- path: https://github.com/DouglasNovelli/world-leaders-educational-data/blob/main/dataset/world-leaders-educational-data-v1.csv
-- format: csv
-- size: 80 KB
-- fields:
-  - name: Name
-    description: Name of the world leader.
-  - name: Country
-    description: Country of the world leader.
-  - name: UN_regional_group
-    description: Regional Group of the country in the United Nations. V1 Includes only member states of the Group of Latin America and the Caribbean (GRULAC).
-  - name: System_of_Government
-    description: Type of the national political regime. For presidential states, the president was considered the country leader; for parliamentary states, the prime minister was considered.
-  - name: First_day_in_office
-    description: Day in which the world leader assumed office (dd/mm/yyyy).
-  - name: Last_day_in_office
-    description: Day in which the world leader left office if it already happened (dd/mm/yyyy).
-  - name: Alma_mater
-    description: Educational institution from where the world leader got a higher degree.
-  - name: Location
-    description: Country where the educational institution is located. 
-  - name: Field_of_study
-    description: Field studied by the world leader. Includes information about the type of degree when available. 
-  - name: Source
-    description: Sources of information for the data. Common sources include the Caribbean Elections Biographical Database and the Barcelona Center for International Affairs (CIDOB).
-  - name: Access_date
-    description: Data when the information was accessed (dd/mm/yyyy).
 license:
-- name: Creative Commons Attribution 4.0 International (CC BY 4.0). You are free to copy, share and adapt this dataset for any purpose, provided that the original authorship is acknowledged. To cite this dataset: Novelli, Douglas. “World Leaders Educational Data, v1.” https://github.com/DouglasNovelli/world-leaders-educational-data.   
+Creative Commons Attribution 4.0 International (CC BY 4.0). You are free to copy, share and adapt this dataset for any purpose, provided that the original authorship is acknowledged. To cite this dataset: Novelli, Douglas. “World Leaders Educational Data, v1.” https://github.com/DouglasNovelli/world-leaders-educational-data.   
   link: https://creativecommons.org/licenses/by/4.0/
+
 references:
-- name: Caribbean Elections Biographical Database
-  link: http://www.caribbeanelections.com/knowledge/biography/default.asp
-- name: Barcelona Center for International Affairs
-  link: https://www.cidob.org/biografias_lideres_politicos
+- Caribbean Elections Biographical Database. 
+  - link: http://www.caribbeanelections.com/knowledge/biography/default.asp
+- Barcelona Center for International Affairs. 
+  - link: https://www.cidob.org/biografias_lideres_politicos
