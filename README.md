@@ -1,6 +1,6 @@
 # World Leaders Educational Data
 
-Description: Presents information about where world leaders got their higher degrees. V1 includes data about the GRULAC countries between Dec/1991 and Dec/2017.
+Presents information about where world leaders got their higher degrees. V1 includes data about the GRULAC countries between Dec/1991 and Dec/2017.
 
 Contributors: Douglas Novelli
 
