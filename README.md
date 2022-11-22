@@ -1,15 +1,15 @@
 # World Leaders Educational Data
 
-name: World Leaders Educational Data
 description: Presents information about where world leaders got their higher degrees. V1 includes data about the GRULAC countries between Dec/1991 and Dec/2017.
-contributors:
-- name: Douglas Novelli
+
+contributors: Douglas Novelli
+
 data:
 - name: world-leaders-educational-data-v1.csv
-  path: https://github.com/DouglasNovelli/world-leaders-educational-data/blob/main/dataset/world-leaders-educational-data-v1.csv
-  format: csv
-  size: 80 KB
-  fields:
+- path: https://github.com/DouglasNovelli/world-leaders-educational-data/blob/main/dataset/world-leaders-educational-data-v1.csv
+- format: csv
+- size: 80 KB
+- fields:
   - name: Name
     description: Name of the world leader.
   - name: Country
